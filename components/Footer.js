@@ -35,26 +35,7 @@ export function Footer() {
           
         </div>
 
-        <div style={{display:'flex', flexDirection: 'column', gap: '1.5rem'}}>
-          <strong style={{color: 'var(--text)', fontSize: '1rem'}}>Newsletter</strong>
-          <form action="/api/newsletter" method="post" style={{display:'flex', flexDirection: 'column', gap: '0.75rem'}}>
-            <input
-              name="email"
-              placeholder="Email address"
-              aria-label="Email"
-              style={{
-                padding: '0.75rem 1rem',
-                borderRadius: 'var(--radius-md)',
-                background: 'var(--bg)',
-                border: '1px solid var(--glass-border)',
-                color: 'var(--text)'
-              }}
-            />
-            <button className="btn primary" type="submit" style={{width: '100%', padding: '0.75rem'}}>
-              Subscribe
-            </button>
-          </form>
-        </div>
+        
       </div>
 
       <div className="container" style={{marginTop: '60px', paddingTop: '20px', borderTop: '1px solid var(--glass-border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.875rem', color: 'var(--text-muted)'}}>
