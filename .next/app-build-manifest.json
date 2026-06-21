@@ -1,0 +1,84 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/app/_not-found-77a6530beaf48779.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/css/c2f34096658fe95d.css",
+      "static/chunks/app/layout-ec6dc4c2ed01f86f.js"
+    ],
+    "/services/[slug]/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/services/[slug]/page-607ebd56a63981ef.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/page-3e9d41e5d4fc60e9.js"
+    ],
+    "/blog/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/blog/page-2bcd45fab9dabe67.js"
+    ],
+    "/digital-marketing/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/digital-marketing/page-761df94698f92156.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/about/page-a42b759d2919ba76.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/contact/page-517e4b476405f212.js"
+    ],
+    "/portfolio/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/portfolio/page-b6e83913a5dab457.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-9a601efe7a2f7ec0.js",
+      "static/chunks/fd9d1056-447d397fddc1facb.js",
+      "static/chunks/472-7b1cd7e3fd2a66bc.js",
+      "static/chunks/main-app-b17fed00b53e7038.js",
+      "static/chunks/326-a84953a5378f2f57.js",
+      "static/chunks/app/services/page-9f19ec50645d1d54.js"
+    ]
+  }
+}
