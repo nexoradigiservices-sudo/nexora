@@ -14,72 +14,72 @@ export default function ContactPage() {
         <p>Tell us about your goals and timelines. We'll reply with a concise engagement plan and options.</p>
 
         <div className="sidebar-grid" style={{ marginTop: "3rem" }}>
-          {/* Contact Form */}
-          <form
-            className="glass"
-            action="/api/contact"
-            method="post"
-            style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}
-          >
-            <div>
-              <label style={{ display: "block", marginBottom: "0.5rem", fontWeight: 700, fontSize: "0.95rem" }}>Name</label>
-              <input
-                name="name"
-                placeholder="Your full name"
-                style={{
-                  width: "100%",
-                  padding: "0.85rem 1rem",
-                  borderRadius: "var(--radius-sm)",
-                  border: "1px solid var(--glass-border)",
-                  background: "var(--bg)",
-                  color: "var(--text)",
-                  fontSize: "1rem",
-                  outline: "none",
-                }}
-              />
-            </div>
-            <div>
-              <label style={{ display: "block", marginBottom: "0.5rem", fontWeight: 700, fontSize: "0.95rem" }}>Email</label>
-              <input
-                name="email"
-                type="email"
-                placeholder="name@company.com"
-                style={{
-                  width: "100%",
-                  padding: "0.85rem 1rem",
-                  borderRadius: "var(--radius-sm)",
-                  border: "1px solid var(--glass-border)",
-                  background: "var(--bg)",
-                  color: "var(--text)",
-                  fontSize: "1rem",
-                  outline: "none",
-                }}
-              />
-            </div>
-            <div>
-              <label style={{ display: "block", marginBottom: "0.5rem", fontWeight: 700, fontSize: "0.95rem" }}>Message</label>
-              <textarea
-                name="message"
-                rows={6}
-                placeholder="Tell us about your project..."
-                style={{
-                  width: "100%",
-                  padding: "0.85rem 1rem",
-                  borderRadius: "var(--radius-sm)",
-                  border: "1px solid var(--glass-border)",
-                  background: "var(--bg)",
-                  color: "var(--text)",
-                  fontSize: "1rem",
-                  resize: "vertical",
-                  outline: "none",
-                  fontFamily: "inherit",
-                }}
-              />
-            </div>
-            <button type="submit" className="btn primary" style={{ alignSelf: "flex-start" }}>
-              Send message →
-            </button>
-          </form>
+          {/* Contact Methods */}
+<div
+  className="glass"
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    gap: "1.5rem",
+    padding: "2rem",
+  }}
+>
+  <h3 style={{ margin: 0 }}>Let's Build Something Great Together</h3>
+
+  <p style={{ color: "var(--muted)" }}>
+    Have a project in mind? Reach out through your preferred channel and our
+    team will respond quickly.
+  </p>
+
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      gap: "1rem",
+    }}
+  >
+    <a
+      href="mailto:nexoradigiservices@gmail.com"
+      className="btn ghost"
+      style={{ justifyContent: "center" }}
+    >
+      📧 Email Us
+    </a>
+
+    <a
+      href="tel:+919025110370"
+      className="btn ghost"
+      style={{ justifyContent: "center" }}
+    >
+      📞 Call Us
+    </a>
+
+    <a
+      href="https://wa.me/919025110370"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn primary"
+      style={{ justifyContent: "center" }}
+    >
+      💬 WhatsApp Us
+    </a>
+  </div>
+
+  <div
+    style={{
+      marginTop: "1rem",
+      padding: "1rem",
+      borderRadius: "var(--radius-sm)",
+      background: "rgba(255,255,255,0.05)",
+    }}
+  >
+    <strong>Business Hours</strong>
+    <p style={{ margin: "0.5rem 0 0", color: "var(--muted)" }}>
+      Monday – Saturday<br />
+      9:00 AM – 8:00 PM IST
+    </p>
+  </div>
+</div>
 
           {/* Sidebar */}
           <aside style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
